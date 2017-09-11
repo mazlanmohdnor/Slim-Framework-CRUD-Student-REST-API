@@ -11,10 +11,10 @@
 
 
 //pdo
-$dbhost="localhost:3306";
-$dbuser="techouzc_mazlan";
-$dbpass="123456789";
-$dbname="techouzc_wp11";
+$dbhost="";
+$dbuser="";
+$dbpass="";
+$dbname="";
 $dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 return $dbh;
